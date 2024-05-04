@@ -1,6 +1,6 @@
 function explainParseInt(value) {
   console.log("Original Value:", value);
-  let result = parseInt(value);
+  let result = parseInt(value); // intger value nikal kr deta hai
   console.log("After parseInt:", result);
 }
 
@@ -11,7 +11,7 @@ explainParseInt("3.14");
 
 function explainParseFloat(value) {
   console.log("Original Value:", value);
-  let result = parseFloat(value);
+  let result = parseFloat(value); // float value nikal kr deta hai
   console.log("After parseFloat:", result);
 }
 

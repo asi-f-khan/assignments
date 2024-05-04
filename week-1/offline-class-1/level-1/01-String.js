@@ -40,21 +40,21 @@ function getSubstring(str, start, end) {
 }
 getSubstring("Hello World", 0, 5);
 
-// replace
+// replace -> target khoj kr replace kr deta hai
 function replaceString(str, target, replacement) {
   console.log("Original String:", str);
   console.log("After replace:", str.replace(target, replacement));
 }
 replaceString("Hello World", "World", "JavaScript");
 
-// split
+// split -> jo seprator denge uske hisab se split kr deta hai
 function splitString(str, separator) {
   console.log("Original String:", str);
   console.log("After split:", str.split(separator));
 }
 splitString("Hello World", " ");
 
-// trim
+// trim -> extra space hta deta hai from only both end
 function trimString(str) {
   console.log("Original String:", str);
   console.log("After trim:", str.trim());
